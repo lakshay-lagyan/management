@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express   = require('express');
 const pool      = require('../config/db');
-const loanRoutes= require('../routes/loanRoutes');
-const loanController  = require('../controllers/loanController');
+const loanRoutes= require('./loanRoutes');
+const loanController  = require('./loanController');
 
 const app = express();
 app.use(express.json());
