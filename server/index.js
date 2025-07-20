@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors    = require('cors');
-const loanRoutes = require('./server/loanRouter');
+const loanRoutes = require('./loanRouter');
 
 const app = express();
 app.use(cors());
